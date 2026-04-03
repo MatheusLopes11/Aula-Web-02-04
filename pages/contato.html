@@ -2,26 +2,67 @@
 <html lang="pt-br">
 <head>
 	<meta charset = "UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title> Início </title>
+	<meta name = "viewport" content="width-device-width, initial-scale=1.0">
+	<title>Cadastro</title>
 </head>
-<header>
 
-	<nav>
-	<a href="..\pages\sobre">
-	Sobre nós
-	</a>
-	</nav>
-
-</header>
 <body>
 
-	<main>
-	
-	</main>
-	
-	<footer>
-	</footer>
+<header>
+<h1> Loja All Games Tour </h1>
+</header>
 
-</body>	
+<hr>
+
+<nav style="display:flex; gap:20px">
+<a href="..\pages\index.html">
+Início
+</a>
+
+<a href="..\pages\sobre.html">
+Sobre nós
+</a>
+</nav>
+<hr><br><br><br>
+<main>
+
+	<section>
+	<h2> Formulário de Cadastro </h2>
+	
+		<form>
+
+			<label for="nome">Nome:</label><br>
+
+			<input type="text" id="nome" name="nome">
+			
+			<br><br>
+
+			<label for="email">E-mail:</label><br>
+
+			<input type="email" id="email" name="email">
+			
+			<br><br>
+
+			<select id="cliente" name="cliente">
+
+				<option>Cliente</option>
+
+			</select>
+			
+			<br><br>
+
+			<label for="msg">Feedback de Melhorias para a Loja e o Site:</label><br>
+
+			<textarea id="msg" name="msg" rows="5"></textarea>
+
+			<input type="submit" value="Enviar">
+
+		</form>
+	
+	</section>
+
+</main>
+<footer>
+</footer>
+</body>
 </html>
